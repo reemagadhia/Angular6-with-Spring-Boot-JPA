@@ -1,0 +1,9 @@
+.form-control{ width: 80%; border: 1px solid #ccc; }
+.loginForm{ margin-top: 2%; margin-left: 30%;  border: 1px solid #eee;  padding: 20px; width: 40%;  }
+.btn{ margin-top: 7%; width: 100px; margin-left: 38%; }
+label{ font-size: 14px }
+h3{ margin-left:40%; margin-top: 0px }
+hr{ width: 100%; margin-left: 0% }
+.form-group{ margin-bottom: 50px; font-size: 15px}
+.col-sm-9{ width: 71%; padding-left: 0px; }
+input{ border-color: #eee}

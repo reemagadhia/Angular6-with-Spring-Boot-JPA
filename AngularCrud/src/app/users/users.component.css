@@ -1,0 +1,15 @@
+.editButton:hover{ background-color: green; color:white; }
+.editButton:click{ background-color: green; color:white; }
+.editButton:focus{ background-color: green; color:white; }
+.deleteButton:hover{ background-color: red; color: white }
+.deleteButton:click{ background-color: red; color: white }
+.deleteButton:focus{ background-color: red; color: white }
+.users{ width: 80% }
+.usersClass{ margin-top: 2% }
+.nav-tabs > li > a { font-size: 15px; }
+.nav > li > a:hover { text-decoration: none; background-color:#4b5d6f; color: white; font-size: 15px; }
+.nav > li > a:click { text-decoration: none; background-color:#4b5d6f; color: white; font-size: 15px; }
+.nav > li > a:focus { text-decoration: none; background-color:#4b5d6f; color: white; font-size: 15px; }
+.active{ text-decoration: none; background-color:#4b5d6f; color: white; font-size: 15px; }
+.form-control{ width: 50% }
+.updateButton{ margin-top: 2% }

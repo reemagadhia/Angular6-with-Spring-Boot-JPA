@@ -1,0 +1,15 @@
+<div class = "container loginForm">
+  <h3>Login</h3><hr>
+  <form method="GET" class="row">
+    <div class = "form-group">
+      <label class="col-sm-3">Email Id:</label>
+      <input type="email" class="form-control" [(ngModel)] = "user.emailId" name="emailId" class="col-sm-9">
+    </div>
+    <div class="form-group">
+      <label class="col-sm-3">Password:</label>
+      <input type="password" class="form-control" [(ngModel)] = "user.password" name="password" class="col-sm-9">
+  </div>
+      <button class="btn btn-primary"  (click)="checkUser(user)">Login</button>
+  </form>
+  <div style="text-align: center">{{msg}}</div>
+</div>

@@ -1,0 +1,22 @@
+
+<div class="container">
+<ul class="nav nav-tabs" id="mainClass">
+  <li class="nav-item" ><a class="nav-link" href="viewUsers">View All Users</a></li>
+  <li class="nav-item"><a class="nav-link active" href="addUser">Add User</a></li>  
+  <li class="nav-item navbar-right"><a class="nav-link" (click)=logout()>Logout</a></li>         
+</ul>
+</div>
+<div class = "container studentsForm">
+  <h4>Add User</h4>
+  <form method="POST" [formGroup]="addUserForm">
+      <label>Full Name:</label>
+      <input type="text" class="form-control" [(ngModel)] = "newUser.fullName" id = "fullName" name="fullName" formControlName="fullName" >
+      <label>Contact:</label>
+      <input type="text" class="form-control" [(ngModel)] = "newUser.contact" name="contact" formControlName="contact" >
+      <label>Email Id:</label>
+      <input type="email" class="form-control" [(ngModel)] = "newUser.emailId" name="emailId" formControlName="emailId" >
+      <label>Password:</label>
+      <input type="password" class="form-control" [(ngModel)] = "newUser.password" name="password" formControlName="password">
+      <button class="btn btn-primary" [disabled]="!addUserForm.valid" (click)="addUser(newUser)">Add User</button>
+  </form>
+</div>
